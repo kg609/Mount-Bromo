@@ -157,6 +157,7 @@ nav a:hover {
 	padding-bottom: 3px;
 }
 
+/*Main content of the Stories page*/
 #textBox {
 	background: white;
 	padding: 0 250px;
@@ -214,9 +215,9 @@ figure:nth-of-type(2) img {
 	padding: 0;
 	height: 200px; 
 }
+/*End of the Main content of the Stories page*/
 
-
-
+/*Footer content of the Stories page*/
 .row {
     width: 100%;
 }

@@ -104,47 +104,60 @@ input, select {
 /* My Code Starts Here*/
 
 header {
-	background: url(top-img.png) no-repeat center center; 
+    background: url(top-img.png) no-repeat center center; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
     background-size: cover;
     width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	height: 275px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 500px;
 }
 
-nav ul li {
-	display: inline-block;
+
+
+li  {
+    display: inline-block;
 }
 
+a {
+    font-family: "Lato", serif;
+    font-size: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 80px;
+    padding: 0 75px 0 0;
+    color: #FFF;
+}
+
+li a {
+    display: block;
+}
 
 .button {
     background-color: none;
     opacity: 100%;
     border: none;
-    text-decoration: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
+    text-decoration: none;
     display: inline-block;
     font-size: 13px;
     margin: 4px 2px;
     cursor: pointer;
-    font-family: "Lato", serif;
 }
 
-
-a:hover {
-	border-bottom: solid 2px #ff0000; 
-	width: 35px;
-	display: inline-block;
-	padding-bottom: 3px;
-
+nav a:hover {
+    border-bottom: solid 2px #ff0000;
+    width: 30px;
+    display: inline;
+    padding-bottom: 3px;
 }
 
+/*Main content of the About us page*/
 #textBox {
 	background: white;
 	padding: 0 250px;
@@ -154,8 +167,9 @@ a:hover {
 p {
 	margin: 20px;
 }
+/*End of Main content of the About us page*/
 
-
+/*Footer content of the About us page*/
 .row {
     width: 100%;
 }
@@ -192,6 +206,7 @@ p {
     margin: 15px 20px 0 0;
     padding: auto;
 }
+
 
 h6 {
     margin: 400px 0 0 100px;
